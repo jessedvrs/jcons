@@ -27,4 +27,5 @@ jconfig.json:
 
 ## Release History
 
-* 0.1.0 Initial release
+* 0.0.3 Gulp support
+* 0.0.1 Initial release
