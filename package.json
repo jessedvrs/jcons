@@ -1,0 +1,22 @@
+{
+  "name": "jcons",
+  "version": "0.0.1",
+  "description": "jcons allows you to generate inline svg strings from your .svg files. This allows you to use inline svg icons in your (Javascript) webapplication.",
+  "main": "index.js",
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-json",
+    "jcons"
+  ],
+  "author": "Léon Smit <leon@lifely.nl> (https://github.com/andreleon)",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2",
+    "jsonfile": "^2.2.3",
+    "lodash": "^4.10.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "svgo": "^0.6.4"
+  }
+}

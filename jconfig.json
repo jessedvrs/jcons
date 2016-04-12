@@ -1,0 +1,10 @@
+{
+    "source": {
+        "dir": "svg/"
+    },
+    "output": {
+        "dir": "output/",
+        "fileName": "jcons",
+        "spaces": 4
+    }
+}
