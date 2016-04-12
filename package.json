@@ -15,7 +15,6 @@
   "dependencies": {
     "fs": "0.0.2",
     "jsonfile": "^2.2.3",
-    "lodash": "^4.10.0",
     "mkdirp": "^0.5.1",
     "path": "^0.12.7",
     "svgo": "^0.6.4"
