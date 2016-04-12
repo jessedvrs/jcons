@@ -1,7 +1,7 @@
 jcons
 =========
 
-jcons allows you to generate inline svg strings from your .svg files. This allows you to use inline svg icons in your (Javascript) webapplication.
+jcons generates a json file with svg strings from your .svg files. This allows you to use inline svg icons in your (Javascript) webapplication. Usefull for frameworks like React.
 
 ## Installation
 
