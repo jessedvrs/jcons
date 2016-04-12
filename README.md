@@ -10,6 +10,10 @@ jcons allows you to generate inline svg strings from your .svg files. This allow
 ## Configuration
 
 Jcons reads the configuration from a `jconfig.json` in your project root
+
+`var jcons = require('jcons');`
+
+jconfig.json:
 ```
    "source": {
         "dir": "svg/"
