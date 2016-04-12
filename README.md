@@ -5,7 +5,21 @@ jcons allows you to generate inline svg strings from your .svg files. This allow
 
 ## Installation
 
-  npm install jcons --save
+`npm install jcons --save`
+
+## Configuration
+
+Jcons reads the configuration from a `jconfig.json` in your project root
+```
+   "source": {
+        "dir": "svg/"
+    },
+    "output": {
+        "dir": "output/",
+        "fileName": "jcons",
+        "spaces": 4
+    }
+```
 
 ## Release History
 
