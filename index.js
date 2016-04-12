@@ -22,11 +22,9 @@ var outputDir = output.dir || 'dist/';
 var outputSpaces = output.spaces || 2;
 var outputName = output.fileName || 'output';
 
-var dirpath = path.resolve(__dirname, sourceDir);
-
 module.exports = {
     generateJcons: function() {
-        fs.readdir(dirpath, function(error, files) {
+        fs.readdir(sourceDir, function(error, files) {
             if (error) throw error;
             var generateOutputFile = function(outputObject) {
                 console.log('jcons: completed ' + outputDir + outputName + '.json');
@@ -51,7 +49,7 @@ module.exports = {
                 var iconKey = _.trimEnd(fileName, '.svg');
 
                 // read each file
-                fs.readFile(path.resolve(__dirname, sourceDir + fileName), 'utf8', function(error, svgData) {
+                fs.readFile(path.resolve(sourceDir + fileName), 'utf8', function(error, svgData) {
                     if (error) throw error;
 
                     // optimize svg file
